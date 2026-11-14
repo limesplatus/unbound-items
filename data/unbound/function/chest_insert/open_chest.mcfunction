@@ -40,6 +40,8 @@ execute anchored eyes positioned ^ ^ ^ if entity @s[advancements={unbound:chest/
 
 execute anchored eyes positioned ^ ^ ^ if entity @s[advancements={unbound:chest/global_farm=true}] run function unbound:chest_insert/raycast/global_farm
 
+execute anchored eyes positioned ^ ^ ^ if entity @s[advancements={unbound:chest/minecraft/abandoned_camp_secret_chest=true}] run function unbound:chest_insert/raycast/minecraft/abandoned_camp_secret_chest
+
 
 
 advancement revoke @s only unbound:chest/open

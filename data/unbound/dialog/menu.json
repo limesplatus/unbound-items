@@ -10,7 +10,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "v1.0.6\nBy limesplatus",
+        "text": "v\nBy limesplatus",
         "color": "gray"
       },
       "width": 300

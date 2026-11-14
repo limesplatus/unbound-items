@@ -1,0 +1,10 @@
+scoreboard players add temp unbound_storage 1
+
+execute if block ~ ~ ~ #unbound:loot_container run function unbound:chest_insert/at_chest_init {chest_insert:"unbound:golden_beetroot",chance:"500",item_count:2,item_count_min:1,item_count_max:2,item_replace:1}
+
+execute unless block ~ ~ ~ #unbound:loot_container positioned ^ ^ ^.2 run function unbound:chest_insert/raycast/minecraft/abandoned_camp_secret_chest
+
+
+execute if score temp unbound_storage matches 30.. run scoreboard players reset temp unbound_storage
+
+advancement revoke @s only unbound:chest/minecraft/abandoned_camp_secret_chest

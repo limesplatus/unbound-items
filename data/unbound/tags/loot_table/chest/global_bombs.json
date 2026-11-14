@@ -20,6 +20,10 @@
     {
       "id": "terralith:village/fortified/smith",
       "required": false
+    },
+    {
+      "id": "chests/abandoned_camp_common_chest",
+      "required": false
     }
   ]
 }
