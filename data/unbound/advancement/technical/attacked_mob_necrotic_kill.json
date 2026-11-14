@@ -1,0 +1,35 @@
+
+{
+  "criteria": {
+    "2": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            "unbound:equipped/necrotic_amulet",
+            {
+              "type": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "unbound_player_health": {
+                  "min": 0,
+                  "max": 6
+                }
+              }
+            }
+          ]
+        },
+        "killing_blow": {
+          "direct_entity": {
+            "entity_type": "minecraft:player"
+          },
+          "is_direct": true
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "unbound:amulets/necrotic/attack_kill"
+  }
+}

@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=unbound_sea_amulet_bubble] at @s run function unbound:amulets/sea/bubble_particle/a_main

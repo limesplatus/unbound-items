@@ -1,0 +1,47 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tipped_arrow",
+            "modifier": [
+              {
+                "type": "minecraft:set_components",
+                "components": {
+                  "max_stack_size": 16,
+                  "tooltip_display": {
+                    "hidden_components": [
+                      "potion_contents"
+                    ]
+                  },
+                  "item_model": "spectral_arrow",
+
+                  "custom_model_data": {
+                                  "floats": [4376001]},
+
+                  
+                  "custom_data": {
+                    "unbound_item": 1,
+"smithed": {"ignore": {"functionality": 1}},
+                    "unbound_shock_arrow": 1
+                  },
+                
+                
+ "custom_name": {"translate":"Shock Arrow","color":"white","italic":false},
+                
+                
+ "item_name": {"translate":"Shock Arrow","color":"white","italic":false}
+
+
+                 
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

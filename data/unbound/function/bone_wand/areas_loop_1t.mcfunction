@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=unbound_bone_wand_area] at @s run function unbound:bone_wand/areas

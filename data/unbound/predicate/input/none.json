@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:all_of",
+    "terms": [
+        {
+            "type": "inverted",
+            "term": "unbound:input/forward"
+        },
+        {
+            "type": "inverted",
+            "term": "unbound:input/sneak"
+        },
+        {
+            "type": "inverted",
+            "term": "unbound:input/left"
+        },
+        {
+            "type": "inverted",
+            "term": "unbound:input/right"
+        },
+        {
+            "type": "inverted",
+            "term": "unbound:input/back"
+        }
+    ]
+}

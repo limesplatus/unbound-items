@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+
+    {"id":"minecraft:cow","required": false},
+    {"id":"minecraft:sheep","required": false},
+    {"id":"minecraft:pig","required": false},
+    {"id":"minecraft:chicken","required": false},
+
+    {"id":"minecraft:wolf","required": false},
+    {"id":"minecraft:cat","required": false},
+    {"id":"minecraft:allay","required": false},
+
+    {"id":"minecraft:rabbit","required": false}
+
+    
+    
+   
+
+    
+  ]
+}

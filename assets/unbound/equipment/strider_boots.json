@@ -1,0 +1,14 @@
+{
+	"layers": {
+	  "humanoid": [
+		{
+		  "texture": "unbound:strider_boots"
+		}
+	  ],
+	  "humanoid_leggings": [
+		{
+		  "texture": "unbound:strider_boots"
+		}
+	  ]
+	}
+  }

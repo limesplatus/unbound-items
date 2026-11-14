@@ -1,0 +1,33 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "modifier": [
+              {
+                "type": "minecraft:set_components",
+                "components": {
+                  "minecraft:lore": [
+                    {"translate":"Nearby animals will gain speed","color": "gray","italic": false},{"translate":"and follow you faster","color": "gray","italic": false},{"text":""},{"translate":"Equippable in:","color": "gray","italic": false},{"translate": " Offhand","color":"blue","italic": false}
+                  ],
+                  
+                  "minecraft:item_model": "amethyst_shard",
+                  "minecraft:item_name": {"translate":"Herding Amulet"},
+                  "minecraft:rarity": "uncommon",
+                  "minecraft:custom_model_data": {"floats":[4376004]},
+                  "minecraft:custom_data": {"unbound_herding_amulet":1,"unbound_amulet":1,"unbound_hand_item":1,
+                                  "unbound_item": 1,
+"smithed": {"ignore": {"functionality": 1}}},
+                  "max_stack_size": 1
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

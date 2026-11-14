@@ -1,0 +1,102 @@
+{
+    
+    
+    "Swap Target: " : "e", 
+"Hold Sneak" : "e", 
+"Calibrate: " : "e", 
+"Target: " : "e", 
+"Mobs & Players" : "e", 
+"Mobs" : "e", 
+"Players" : "e", 
+"Items" : "e", 
+"Sculk Radar Calibratted!" : "e", 
+"Calibrating target" : "e", 
+
+"Sculk Radar" : "e", 
+
+"(Mobs)" : "e", 
+"(Players)" : "e", 
+"(Items)" : "e", 
+"(Mobs & Players)" : "e", 
+
+"Amulet of the Sea" : "e", 
+"Water Dash" : "e", 
+"Grants a water dash ability" : "e", 
+" while swimming" : "e", 
+"Equippable in:" : "e", 
+"  Offhand" : "e", 
+
+"Bomb" : "e", 
+"Confetti" : "e", 
+
+"Confusion Slime" : "e", 
+"When thown, mobs forget their" : "e", 
+"targets and attack each other" : "e", 
+
+"Farmer Hat" : "e", 
+"Places an additional crop" : "e", 
+"next to crops you place" : "e", 
+"Zombie Detection Range" : "e", 
+
+"Fire Amulet" : "e", 
+"Grants brief immunity to fire" : "e", 
+" Offhand" : "e", 
+
+"Glow Slime Ball" : "e", 
+"Apply on Lanterns up to 4 times" : "e", 
+"Create Glow Lantern" : "e", 
+"Sneak for permanent decoration": "e",
+"Place 4 in Water Cauldron" : "e", 
+"Convert to Slime Ball" : "e", 
+
+"Big Hearty Beetroot" : "e", 
+
+"Herding Amulet" : "e", 
+"Nearby animals will gain speed" : "e", 
+"and follow you faster" : "e", 
+
+"Stealth Hood" : "e", 
+"Grants a short " : "e", 
+"speed boost" : "e", 
+"when hurt at low health" : "e", 
+
+"Necrotic Amulet" : "e", 
+"Drastically lowers your max health" : "e", 
+"in exchange for " : "e", 
+"+5 attack damage" : "e", 
+
+"Rabbit Boots" : "e", 
+"Air Dash" : "e", 
+"High Jump" : "e", 
+"Hold " : "e", 
+"Jump" : "e", 
+
+"Spectral Bottle" : "e", 
+"Releases a powerful light," : "e", 
+"making mobs nearby glow" : "e", 
+
+"Spectre Boots" : "e", 
+"+20% Speed Boost" : "e", 
+"Sprinting in One Direction" : "e", 
+
+"Strider Boots" : "e", 
+"Lava Jump" : "e", 
+"Allows you to jump twice" : "e", 
+"on the surface of lava" : "e", 
+"unbound.strider_boots.lore1": " right before",
+"unbound.strider_boots.lore2": "   entering lava",
+
+
+    "Magnet": "e",
+    "When used, pulls items": "e",
+    "towards the player": "e",
+
+    "Grindstone Repair: ": "e",
+    "Bone Wand": "e",
+"Strider Statue" : "",
+
+
+"Fairy in a Bottle" : "e",
+"Shock Arrow" : "e"
+
+}

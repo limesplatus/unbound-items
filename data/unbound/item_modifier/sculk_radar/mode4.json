@@ -1,0 +1,10 @@
+
+    {
+      "type": "minecraft:set_custom_data",
+      "tag": {
+        "unbound_sculk_radar_mode": 4,
+        "unbound_sculk_radar_mode_name": "Items"
+      }
+    }
+  
+  

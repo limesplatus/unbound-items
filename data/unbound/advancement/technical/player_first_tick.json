@@ -1,0 +1,14 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          
+        }
+      }
+    },
+    "rewards": {
+      "function": "unbound:other/player_first_tick"
+    }
+  }
+  

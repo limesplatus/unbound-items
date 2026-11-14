@@ -1,0 +1,28 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "entries": [
+      {
+        "threshold": 4376006,
+        "model": {
+          "type": "minecraft:model",
+          "model": "unbound:item/golden_beetroot"
+        }
+      }
+      ,{
+        "threshold": 358793498,
+        "model": {
+          "type": "minecraft:model",
+          "model": "unbound:item/voltaic"
+        }
+      }
+      
+      
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/beetroot"
+    }
+  }
+}

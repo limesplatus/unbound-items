@@ -1,0 +1,73 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_boots",
+            "modifier": [
+              {
+                "type": "minecraft:set_components",
+                "components": {
+                    "attribute_modifiers": [
+              
+                  { 
+                    "operation": "add_value",
+                    "type": "armor",
+                    "id": "armor_feet",
+                    "slot": "feet",
+                    "amount": 3
+                  },
+                  { 
+                    "operation": "add_value",
+                    "type": "armor_toughness",
+                    "id": "armor_toughness_feet",
+                    "slot": "feet",
+                    "amount": 1
+                  }
+                ],
+
+                  "equippable": {
+                  "slot": "feet",
+                  "equip_sound": "item.armor.equip_diamond",
+                  "asset_id": "unbound:spectre_boots"
+                },
+                  "minecraft:lore": [
+
+
+    [{"translate":"unbound.spectre_boots.lore1","fallback":"Gives a ","color": "gray","italic": false},{"translate":"unbound.spectre_boots.lore2","fallback":"25%% speed boost","color": "#9ab8bc","italic": false},{"translate":"unbound.spectre_boots.lore3","fallback":" when ","color": "gray","italic": false}],[{"translate":"unbound.spectre_boots.lore4","fallback":"sprinting in one direction","color": "gray","italic": false}],
+                        
+
+                       [{"text":""}],[{"translate":"Grindstone Repair: ","color":"gray","italic": false}],[{"translate":"  ","color":"gray","italic": false},{"color":"blue","italic": false,"translate":"item.minecraft.iron_boots"}]
+
+
+                  ],
+
+      "minecraft:item_name": {"translate":"Spectre Boots"},
+      "repairable": {
+        "items": [
+"diamond_boots"
+        ]
+      },
+      "custom_model_data": {"floats":[4376007]},
+      "max_stack_size": 1,
+      "max_damage": 429,
+      "rarity": "uncommon",
+      "custom_data": {
+        "unbound_spectre_boots": 1,
+                                  "unbound_item": 1,
+"smithed": {"ignore": {"functionality": 1}}
+      }
+                  
+                  
+      
+    }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,49 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:snowball",
+            "modifier": [
+              {
+                "type": "minecraft:set_components",
+                "components": {
+                  
+                  "minecraft:lore": [
+                    [{"translate":"When thown, mobs forget their","color": "gray","italic": false}],[{"translate":"targets and attack each other","color": "gray","italic": false}]
+                  ],
+
+                  "enchantments": {
+                        "unbound:technical/snowball": 1
+                },
+                  "enchantment_glint_override":false,
+                   "tooltip_display":
+                    {
+                      "hidden_components": [
+                        "enchantments"
+                      ]
+                    },
+                  
+                  "minecraft:item_name": {"translate":"Confusion Slime","color": "white"},
+               
+                  "custom_model_data": {"floats":[4376003]},
+                  "max_stack_size": 16,
+                  "custom_data": {
+                    "unbound_confusion_slime": 1,
+                                  "unbound_item": 1,
+"smithed": {"ignore": {"functionality": 1}}
+                  }
+                  
+                  
+      
+    }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

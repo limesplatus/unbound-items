@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "entity_type": "interaction",
+            "nbt": "{Tags:[\"unbound_strider_statue_hitbox\"]}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "unbound:block/strider_statue/break_1"
+  }
+}

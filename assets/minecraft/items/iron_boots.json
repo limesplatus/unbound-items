@@ -1,0 +1,44 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "entries": [
+    {
+        "threshold": 87004,
+        "model": {
+          "type": "model",
+        
+        
+        "model": "1_splatus:item/giant_boots_1"
+    }},
+    {
+        "threshold": 4376007,
+        "model": {
+          "type": "model",
+        
+        
+        "model": "unbound:item/spectre_boots"
+      }},
+      
+    {
+      "threshold": 4376010,
+      "model": {
+        "type": "model",
+      
+      
+      "model": "unbound:item/rabbit_boots"
+    }},
+    {
+      "threshold": 4376011,
+      "model": {
+        "type": "model",
+      
+      
+      "model": "unbound:item/strider_boots"
+    }}
+],
+ "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/iron_boots"
+    }
+}}

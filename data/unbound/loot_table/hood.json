@@ -1,0 +1,76 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "attribute_modifiers": [
+                  {
+                    "operation": "add_value",
+                    "type": "armor",
+                    "id": "armor_head",
+                    "slot": "head",
+                    "amount": 1
+                  },
+                  {
+                    "operation": "add_multiplied_base",
+                    "type": "movement_speed",
+                    "id": "movement_speed",
+                    "slot": "head",
+                    "amount": 0.08
+                  }
+                ],
+                "minecraft:item_name": {
+                  "translate": "Stealth Hood"
+                },
+                "minecraft:lore": [
+
+
+
+                      [{"translate":"Grants a short ","color": "gray","italic": false},{"translate":"speed boost","color": "#9ab8bc","italic": false}],[{"translate":"when hurt at low health","color": "gray","italic": false}]
+                  
+                  
+
+                 
+                ],
+                "custom_model_data": {
+                  "floats": [
+                    4376001
+                  ]
+                },
+                 "tooltip_display": {
+                  "hidden_components": [
+                    "unbreakable",
+                    "dyed_color"
+                  ]
+                },
+                "item_model": "leather_helmet",
+                "dyed_color": 4677228,
+                "max_stack_size": 1,
+                "unbreakable": {},
+                "max_damage": 150,
+                "rarity": "common",
+                "custom_data": {
+                  "unbound_hood": 1,
+                                  "unbound_item": 1,
+"smithed": {"ignore": {"functionality": 1}},
+                                  "unbound_unbreakable_armor": 1
+                },
+                "equippable": {
+                  "slot": "head",
+                  "equip_sound": "item.armor.equip_leather"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

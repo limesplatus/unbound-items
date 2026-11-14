@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "player": "unbound:equipped/farmer_hat",
+        "location": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "block": {
+              "blocks": [
+                "carrots",
+                "potatoes",
+                "beetroots",
+                "wheat",
+                "nether_wart"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

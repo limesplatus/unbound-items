@@ -1,0 +1,35 @@
+
+{
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "movement": {
+                  "fall_distance": {
+                    "min": 0.01
+                  }
+                }
+              }
+            },
+            "unbound:equipped/phantom_cloak"
+          ]
+        },
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "entity_type": "player"
+            },
+            "is_direct": true
+          }
+        }
+      }
+    }
+  }
+}

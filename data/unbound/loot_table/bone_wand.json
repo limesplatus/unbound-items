@@ -1,0 +1,47 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:fishing_rod",
+            "modifier": [
+              {
+                "type": "minecraft:set_components",
+                "components": {
+                  "item_model": "bone",
+
+                  "custom_model_data": {
+                                  "floats": [4376019]},
+
+                  
+                  "custom_data": {
+                    "unbound_hand_item": 1,
+                    "unbound_item": 1,
+"smithed": {"ignore": {"functionality": 1}},
+                    "unbound_bone_wand": 1
+                  },
+                  "max_damage": 500,
+                  "repairable": {
+                    "items": [
+                      "bone"
+                    ]
+                  },
+                
+                
+ "item_name": {"translate":"Bone Wand","color":"#dbecff","italic":false},
+
+                  "lore": [ [{"translate":"Grindstone Repair: ","color":"gray","italic": false}],[{"translate":"  ","color":"gray","italic": false},{"color":"blue","italic": false,"translate":"item.minecraft.fishing_rod"}]]
+                  
+
+                 
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

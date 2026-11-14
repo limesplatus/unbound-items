@@ -1,0 +1,46 @@
+{
+
+  "type": "minecraft:any_of",
+    "terms": [
+      {
+    "type": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "mainhand": {
+        "predicates": {
+          "minecraft:enchantments": [
+            {
+              "enchantments": "minecraft:lure",
+              "levels": 3
+            }
+          ]
+        }
+      }
+      }
+    }
+  },
+  {
+    "type": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "mainhand": {
+        "predicates": {
+          "minecraft:enchantments": [
+            {
+              "enchantments": "minecraft:luck_of_the_sea",
+              "levels": 3
+            }
+          ]
+        }
+      }
+      }
+    }
+  }
+
+
+
+
+] 
+}

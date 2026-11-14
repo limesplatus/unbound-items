@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    
+
+    
+            "unbound:amulet_of_the_sea": {"trigger": "minecraft:recipe_crafted",  
+    "conditions": {"recipes": "unbound:amulet_of_the_sea"}}
+
+            ,"unbound:phantom_cloak": {"trigger": "minecraft:recipe_crafted",  
+    "conditions": {"recipes": "unbound:phantom_cloak"}}
+      
+            ,"unbound:spectre_boots": {"trigger": "minecraft:recipe_crafted",  
+    "conditions": {"recipes": "unbound:spectre_boots"}}
+  
+    
+  },
+    
+    "requirements": [
+      [
+        "unbound:amulet_of_the_sea",
+        "unbound:phantom_cloak",
+        "unbound:spectre_boots"
+
+      ]
+    ],
+    "parent": "unbound:technical/craft/any"
+  }

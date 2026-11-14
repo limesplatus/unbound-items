@@ -1,0 +1,47 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star",
+            "modifier": [
+              {
+                "type": "minecraft:set_components",
+                "components": {
+                  "minecraft:lore": [
+                    [{"translate":"Grants immunity to brief contact with","color": "gray","italic": false}],[{"translate":"fire and ","color": "gray","italic": false},{"translate":"-25% burning time","color": "#cc9e8d","italic": false}],{"text":""},{"translate":"Equippable in:","color": "gray","italic": false},{"translate": " Offhand","color":"blue","italic": false}
+                  ],
+                  
+                  "attribute_modifiers": [
+                    {
+                      "amount": -0.25,
+                      "id": "burning_time",
+                      "operation": "add_multiplied_base",
+                      "type": "burning_time",
+                      "slot": "offhand"
+                    }
+                  ],
+                  "tooltip_display": {
+                    "hidden_components": [
+                      "attribute_modifiers"
+                    ]
+                  },
+                  "minecraft:item_model": "amethyst_shard",
+                  "minecraft:item_name": {"translate":"Fire Amulet"},
+                  "minecraft:rarity": "uncommon",
+                  "minecraft:custom_model_data": {"floats":[4376002]},
+                  "minecraft:custom_data": {"unbound_fire_amulet":1,"unbound_amulet":1,"unbound_hand_item":1,
+                                  "unbound_item": 1,
+"smithed": {"ignore": {"functionality": 1}}},
+                  "max_stack_size": 1
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

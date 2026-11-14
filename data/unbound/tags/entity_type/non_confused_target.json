@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+
+    {"id":"#unbound:misc","required": false},
+    {"id":"player","required": false},
+    {"id":"blaze","required": false},
+    {"id":"wither_skeleton","required": false},
+    {"id":"wither","required": false},
+    {"id":"wolf","required": false},
+    {"id":"cat","required": false},
+    {"id":"villager","required": false},
+    {"id":"wandering_trader","required": false},
+    {"id":"piglin_brute","required": false},
+    {"id":"axolotl","required": false},
+    {"id":"evoker","required": false},
+    {"id":"illusioner","required": false}
+
+    
+  ]
+}

@@ -1,0 +1,6 @@
+{
+	"parent": "unbound:item/hide",
+	"textures": {
+		"layer0": "unbound:item/sculk_radar3"
+	}
+}

@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:any_of",
+    "terms": [
+      {
+        "type": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "items": "minecraft:jigsaw",
+              "predicates": {
+                "minecraft:custom_data": {"unbound_sculk_radar_mode": 3}
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "offhand": {
+              "items": "minecraft:jigsaw",
+              "predicates": {
+                "minecraft:custom_data": {"unbound_sculk_radar_mode": 3}
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+  

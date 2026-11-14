@@ -1,0 +1,304 @@
+{
+    "model": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "entries": [
+            {
+                "threshold": 4376001,
+                "model": {
+                    "type": "model",
+                    "model": "unbound:item/fire_amulet"
+                }
+            },
+            {
+                "threshold": 4376002,
+
+                "model": {"type": "minecraft:select","property": "minecraft:display_context","cases": [{
+                            "when": "thirdperson_righthand",
+                            "model": {"type": "minecraft:composite", 
+                            "models": [
+
+                                    {"type": "minecraft:model",
+                                    "model": "unbound:item/amulet/3d/fire"
+                                    }
+                                    ]}},
+                        {
+                            "when": "thirdperson_lefthand",
+                            "model": { "type": "minecraft:composite",
+                            "models": [
+
+                                    {"type": "minecraft:model",
+                                    "model": "unbound:item/amulet/3d/fire"
+                                    }
+                                    ]}}
+                    ],"fallback": { "type": "minecraft:model","model": "unbound:item/amulet/fire"}}
+            },
+            {
+                "threshold": 4376026,
+
+                "model": {"type": "minecraft:select","property": "minecraft:display_context","cases": [{
+                            "when": "thirdperson_righthand",
+                            "model": {"type": "minecraft:composite", 
+                            "models": [
+
+                                    {"type": "minecraft:model",
+                                    "model": "unbound:item/amulet/3d/fire"
+                                    }
+                                    ]}},
+                        {
+                            "when": "thirdperson_lefthand",
+                            "model": { "type": "minecraft:composite",
+                            "models": [
+
+                                    {"type": "minecraft:model",
+                                    "model": "unbound:item/amulet/3d/fire"
+                                    }
+                                    ]}}
+                    ],"fallback": { "type": "minecraft:model","model": "unbound:item/amulet/fire2"}}
+            },
+            {
+                "threshold": 4376027,
+
+                "model": {"type": "minecraft:select","property": "minecraft:display_context","cases": [{
+                            "when": "thirdperson_righthand",
+                            "model": {"type": "minecraft:composite", 
+                            "models": [
+
+                                    {"type": "minecraft:model",
+                                    "model": "unbound:item/amulet/3d/fire"
+                                    }
+                                    ]}},
+                        {
+                            "when": "thirdperson_lefthand",
+                            "model": { "type": "minecraft:composite",
+                            "models": [
+
+                                    {"type": "minecraft:model",
+                                    "model": "unbound:item/amulet/3d/fire"
+                                    }
+                                    ]}}
+                    ],"fallback": { "type": "minecraft:model","model": "unbound:item/amulet/fire2.5"}}
+            },
+             {
+                "threshold": 4376028,
+
+                "model": {"type": "minecraft:select","property": "minecraft:display_context","cases": [{
+                            "when": "thirdperson_righthand",
+                            "model": {"type": "minecraft:composite", 
+                            "models": [
+
+                                    {"type": "minecraft:model",
+                                    "model": "unbound:item/amulet/3d/fire"
+                                    }
+                                    ]}},
+                        {
+                            "when": "thirdperson_lefthand",
+                            "model": { "type": "minecraft:composite",
+                            "models": [
+
+                                    {"type": "minecraft:model",
+                                    "model": "unbound:item/amulet/3d/fire"
+                                    }
+                                    ]}}
+                    ],"fallback": { "type": "minecraft:model","model": "unbound:item/amulet/fire3"}}
+            },
+            {
+                "threshold": 4376003,
+
+                "model": {"type": "minecraft:select","property": "minecraft:display_context","cases": [{
+                            "when": "thirdperson_righthand",
+                            "model": {"type": "minecraft:composite", 
+                            "models": [
+
+                                    {"type": "minecraft:model",
+                                    "model": "unbound:item/amulet/3d/guarding"
+                                    },
+                                    {"type": "minecraft:model",
+                                    "model": "unbound:item/amulet/3d/base"
+                                    
+                                    }]}},
+                        {
+                            "when": "thirdperson_lefthand",
+                            "model": { "type": "minecraft:composite",
+                            "models": [
+
+                                    {"type": "minecraft:model",
+                                    "model": "unbound:item/amulet/3d/guarding"
+                                    },
+                                    {"type": "minecraft:model",
+                                    "model": "unbound:item/amulet/3d/base"
+
+                                    }]}}
+                    ],"fallback": { "type": "minecraft:model","model": "unbound:item/amulet/guarding"}}
+            },
+            {
+                "threshold": 4376004,
+
+                "model": {"type": "minecraft:select","property": "minecraft:display_context","cases": [{
+                            "when": "thirdperson_righthand",
+                            "model": {"type": "minecraft:composite", 
+                            "models": [
+
+                                    {"type": "minecraft:model",
+                                    "model": "unbound:item/amulet/3d/herding"
+                                    }
+                                    ]}},
+                        {
+                            "when": "thirdperson_lefthand",
+                            "model": { "type": "minecraft:composite",
+                            "models": [
+
+                                    {"type": "minecraft:model",
+                                    "model": "unbound:item/amulet/3d/herding"
+                                    }]}}
+                    ],"fallback": { "type": "minecraft:model","model": "unbound:item/amulet/herding"}}
+            },
+            {
+                "threshold": 4376005,
+
+                "model": {"type": "minecraft:select","property": "minecraft:display_context","cases": [{
+                            "when": "thirdperson_righthand",
+                            "model": {"type": "minecraft:composite", 
+                            "models": [
+
+                                    {"type": "minecraft:model",
+                                    "model": "unbound:item/amulet/3d/necrotic"
+                                    }]}},
+                        {
+                            "when": "thirdperson_lefthand",
+                            "model": { "type": "minecraft:composite",
+                            "models": [
+
+                                    {"type": "minecraft:model",
+                                    "model": "unbound:item/amulet/3d/necrotic"
+                                    }
+                                    ]}}
+                    ],"fallback": { "type": "minecraft:model","model": "unbound:item/amulet/necrotic"}}
+            },
+            {
+                "threshold": 4376014,
+
+                "model": {"type": "minecraft:select","property": "minecraft:display_context","cases": [{
+                            "when": "thirdperson_righthand",
+                            "model": {"type": "minecraft:composite", 
+                            "models": [
+
+                                    {"type": "minecraft:model",
+                                    "model": "unbound:item/amulet/3d/necrotic2"
+                                    }]}},
+                        {
+                            "when": "thirdperson_lefthand",
+                            "model": { "type": "minecraft:composite",
+                            "models": [
+
+                                    {"type": "minecraft:model",
+                                    "model": "unbound:item/amulet/3d/necrotic2"
+                                    }]}}
+                    ],"fallback": { "type": "minecraft:model","model": "unbound:item/amulet/necrotic2"}}
+            },
+            {
+                "threshold": 4376030,
+
+                "model": {"type": "minecraft:select","property": "minecraft:display_context","cases": [{
+                            "when": "thirdperson_righthand",
+                            "model": {"type": "minecraft:composite", 
+                            "models": [
+
+                                    {"type": "minecraft:model",
+                                    "model": "unbound:item/amulet/3d/sea"
+                                    }]}},
+                        {
+                            "when": "thirdperson_lefthand",
+                            "model": { "type": "minecraft:composite",
+                            "models": [
+
+                                    {"type": "minecraft:model",
+                                    "model": "unbound:item/amulet/3d/sea"
+                                    }]}}
+                    ],"fallback": { "type": "minecraft:model","model": "unbound:item/amulet/sea"}}
+            },
+            {
+                "threshold": 4376031,
+
+                "model": {"type": "minecraft:select","property": "minecraft:display_context","cases": [{
+                            "when": "thirdperson_righthand",
+                            "model": {"type": "minecraft:composite", 
+                            "models": [
+
+                                    {"type": "minecraft:model",
+                                    "model": "unbound:item/amulet/3d/sea"
+                                    }]}},
+                        {
+                            "when": "thirdperson_lefthand",
+                            "model": { "type": "minecraft:composite",
+                            "models": [
+
+                                    {"type": "minecraft:model",
+                                    "model": "unbound:item/amulet/3d/sea"
+                                    }]}}
+                    ],"fallback": { "type": "minecraft:model","model": "unbound:item/amulet/sea2"}}
+            },
+            {
+                "threshold": 4376032,
+
+                "model": {"type": "minecraft:select","property": "minecraft:display_context","cases": [{
+                            "when": "thirdperson_righthand",
+                            "model": {"type": "minecraft:composite", 
+                            "models": [
+
+                                    {"type": "minecraft:model",
+                                    "model": "unbound:item/amulet/3d/sea"
+                                    }]}},
+                        {
+                            "when": "thirdperson_lefthand",
+                            "model": { "type": "minecraft:composite",
+                            "models": [
+
+                                    {"type": "minecraft:model",
+                                    "model": "unbound:item/amulet/3d/sea"
+                                    }]}}
+                    ],"fallback": { "type": "minecraft:model","model": "unbound:item/amulet/sea3"}}
+            },
+            {
+                "threshold": 4376015,
+                "model": {
+                    "type": "model",
+                    "model": "unbound:item/sculk_radar"
+                }
+            },
+            {
+                "threshold": 4376016,
+                "model": {
+                    "type": "model",
+                    "model": "unbound:item/sculk_radar2"
+                }
+            },
+            {
+                "threshold": 4376017,
+                "model": {
+                    "type": "model",
+                    "model": "unbound:item/sculk_radar3"
+                }
+            },
+            {
+                "threshold": 4376018,
+                "model": {
+                    "type": "model",
+                    "model": "unbound:item/sculk_radar4"
+                }
+            },
+            {
+                "threshold": 4376025,
+                "model": {
+                    "type": "model",
+                    "model": "unbound:item/sculk_radar_not_calibrated"
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/amethyst_shard"
+        }
+    },
+    "hand_animation_on_swap": true
+}

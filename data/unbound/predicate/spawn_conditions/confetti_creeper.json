@@ -1,0 +1,46 @@
+
+    {
+        "type": "minecraft:all_of",
+        "terms": [
+           
+
+            {
+                "type": "any_of",
+                "terms": [
+                   
+                            {
+                                "type": "random_chance",
+                                "chance": 0.04
+                            }
+                ]
+            },
+
+
+            
+           {
+            "type": "inverted",
+            "term":  {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "location": {
+                        "biomes": "#unbound:cant_spawn_confetti_creepers"
+                    }
+                }
+            }
+           },
+           {
+            "type": "inverted",
+            "term":  {
+                "type": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "location": {
+                        "structures": "#unbound:cant_spawn_confetti_creepers"
+                    }
+                }
+            }
+           }
+            
+        ]
+    }

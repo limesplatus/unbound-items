@@ -1,0 +1,1 @@
+loot give @s loot unbound:confusion_slime

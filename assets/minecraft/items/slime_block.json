@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "entries": [
+    {
+      "threshold": 4376028,
+      "model": {
+
+      
+      "type": "model",
+      "model": "unbound:item/entity/glow_slime"
+         }   },
+         {
+          "threshold": 4376029,
+          "model": {
+    
+          
+          "type": "model",
+          "model": "unbound:item/entity/glow_slime_hurt"
+             }   }
+], "fallback": {
+      "type": "minecraft:model",
+      "model": "block/slime_block"
+    }
+}}

@@ -1,0 +1,11 @@
+{
+	"parent": "minecraft:block/template_torch",
+	"textures": {
+	  "torch": "unbound:item/block/glow_torch"
+	},
+	"display": {
+		"firstperson_righthand": {
+			"scale": [1.02, 1.02, 1.02]
+		}
+	}
+  }

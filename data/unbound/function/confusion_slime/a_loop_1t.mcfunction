@@ -1,0 +1,1 @@
+execute as @e[type=item_display,tag=unbound_confusion_slime] at @s run function unbound:confusion_slime/a_main

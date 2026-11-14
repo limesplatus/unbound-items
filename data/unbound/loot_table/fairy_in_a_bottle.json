@@ -1,0 +1,43 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:skeleton_spawn_egg",
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "item_model": "glass_bottle",
+                "max_stack_size": 1,
+                "entity_data": {
+                  "id": "marker",
+                  "Tags": [
+                    "unbound_fairy_in_a_bottle"
+                  ]
+                },
+                "custom_model_data": {
+                  "floats": [
+                    4376035
+                  ]
+                },
+                "custom_data": {
+                  "unbound_item": 1,
+"smithed": {"ignore": {"functionality": 1}},
+                  "unbound_fairy_in_a_bottle": 1
+                },
+                "item_name": {
+                  "translate": "Fairy in a Bottle",
+                  "color": "#dbecff",
+                  "italic": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

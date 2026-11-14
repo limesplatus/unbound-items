@@ -1,0 +1,14 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "unbound:item/sculk_radar"
+	},
+	"display": {
+		"firstperson_lefthand": {
+			"rotation": [-179.05, 2, 81.79],
+			"translation": [1.25, -20, 3],
+			"scale": [0.7168, 0.7168, 0.7168]
+		}
+	}
+}

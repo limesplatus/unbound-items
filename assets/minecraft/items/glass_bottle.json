@@ -1,0 +1,27 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "entries": [
+  	
+    {
+      "threshold": 4376035,
+      "model": {
+      "type": "model",
+      "model": "unbound:item/fairy_in_a_bottle"
+      }
+    },
+      {
+        "threshold": 4376009,
+        "model": {
+
+        "type": "model",
+        "model": "unbound:item/spectral_bottle"
+        }
+    }
+    ], 
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/glass_bottle"
+    }
+}}

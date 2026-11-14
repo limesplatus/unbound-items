@@ -1,0 +1,11 @@
+
+  {
+    "type": "minecraft:set_components",
+    "components": {
+      "equippable": {
+        "slot": "feet",
+        "equip_sound": "entity.breeze.slide",
+        "asset_id": "unbound:spectre_boots_2"
+      }
+    }
+  }

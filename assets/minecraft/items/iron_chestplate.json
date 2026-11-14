@@ -1,0 +1,18 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "entries": [
+    {
+      "threshold": 4376011,
+      "model": {
+
+      
+      "type": "model",
+      "model": "unbound:item/phantom_cloak"
+         }   }
+], "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/iron_chestplate"
+    }
+}}

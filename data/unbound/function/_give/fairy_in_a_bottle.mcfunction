@@ -1,0 +1,1 @@
+loot give @s loot unbound:fairy_in_a_bottle

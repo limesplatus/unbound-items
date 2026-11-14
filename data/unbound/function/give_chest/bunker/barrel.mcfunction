@@ -1,0 +1,1 @@
+give @s barrel[minecraft:container_loot={loot_table:"unbound:chest/bunker/barrel"}]

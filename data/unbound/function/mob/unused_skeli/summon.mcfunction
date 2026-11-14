@@ -1,0 +1,1 @@
+summon minecraft:skeleton ~ ~ ~ {Tags:["smithed.entity","unbound_ancient_skeleton"],ArmorItems:[{},{},{},{id:"minecraft:diamond_helmet",components:{trim:{material:"quartz",pattern:"silence"}}}]}

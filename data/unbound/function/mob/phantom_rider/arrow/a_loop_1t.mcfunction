@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=unbound_shock_arrow] at @s run function unbound:mob/phantom_rider/arrow/a_main

@@ -1,0 +1,7 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "unbound:item/amulet/2d_base",
+	"textures": {
+		"layer0": "unbound:item/amulet/fire"
+	}
+}

@@ -1,0 +1,1 @@
+execute as @e[type=skeleton,tag=unbound_phantom_rider_skeleton] at @s run function unbound:mob/phantom_rider/a_main

@@ -1,0 +1,36 @@
+
+{
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            "unbound:equipped/hood",
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:entity_scores",
+                "entity": "this",
+                "scores": {
+                  "unbound_hood_time": {
+                    "min": 0
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "1"
+    ]
+  ],
+  "rewards": {
+    "function": "unbound:hood/hurt_check"
+  }
+}

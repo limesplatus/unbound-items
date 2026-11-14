@@ -1,0 +1,14 @@
+{
+    "replace": false,
+    "values": [
+  
+      
+      {"id":"trial_chambers","required": false},
+      {"id":"stronghold","required": false}
+      
+     
+  
+      
+    ]
+  }
+  

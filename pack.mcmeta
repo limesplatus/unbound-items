@@ -1,0 +1,60 @@
+{
+  "id": "unbound-items",
+  "pack": {
+    "pack_format": 121,
+    "supported_formats": {
+      "min_inclusive": 15,
+      "max_inclusive": 9999
+    },
+    "min_format": 15,
+    "max_format": 9999,
+    "description": [
+      {
+        "translate": "Unbound",
+        "color": "#86b5f7"
+      },
+      {
+        "translate": " [v1.0.6]",
+        "color": "#707070"
+      },
+      {
+        "translate": "\n"
+      },
+      {
+        "translate": "Item Expansion",
+        "color": "#898f96"
+      }
+    ]
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "1.21.9",
+        "min_format": 88,
+        "max_format": 9999,
+        "formats": {
+          "min_inclusive": 88,
+          "max_inclusive": 9999
+        }
+      },
+      {
+        "directory": "1.21.11",
+        "min_format": 94,
+        "max_format": 9999,
+        "formats": {
+          "min_inclusive": 94,
+          "max_inclusive": 9999
+        }
+      },
+      {
+        "directory": "overlay-empty",
+        "min_format": 15,
+        "max_format": 9999,
+        "formats": {
+          "min_inclusive": 15,
+          "max_inclusive": 9999
+        }
+      }
+    ]
+  }
+}

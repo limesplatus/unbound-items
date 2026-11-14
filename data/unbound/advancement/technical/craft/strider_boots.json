@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    
+
+    
+            "unbound:strider_boots": {"trigger": "minecraft:recipe_crafted",  
+    "conditions": {"recipes": "unbound:strider_boots"}}
+  
+    
+  },
+    
+    "requirements": [
+      [
+        "unbound:strider_boots"
+
+      ]
+    ],
+    "parent": "unbound:technical/craft/any"
+  }

@@ -1,0 +1,20 @@
+
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            "unbound:equipped/sculk_radar",
+            {
+              "type": "minecraft:inverted",
+              "term": "unbound:equipped/sculk_radar/calibrated_either"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

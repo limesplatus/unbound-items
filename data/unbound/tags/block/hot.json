@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+   
+    {"id": "minecraft:lava","required": false},
+    {"id": "#fire","required": false}
+    
+
+
+
+  
+
+
+    
+  ]
+}

@@ -1,0 +1,1 @@
+loot give @s loot unbound:glow_slime_ball

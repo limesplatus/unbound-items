@@ -1,0 +1,14 @@
+{
+	"layers": {
+	  "humanoid": [
+		{
+		  "texture": "unbound:spectre_boots_2"
+		}
+	  ],
+	  "humanoid_leggings": [
+		{
+		  "texture": "unbound:spectre_boots_2"
+		}
+	  ]
+	}
+  }

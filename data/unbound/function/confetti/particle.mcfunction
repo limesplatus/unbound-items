@@ -1,0 +1,7 @@
+$particle minecraft:falling_dust{block_state:{id:"red_glazed_terracotta"}} ~ ~ ~ $(num) $(num) $(num) 1 1 normal @a[distance=..32]
+$particle minecraft:falling_dust{block_state:{id:"yellow_concrete"}} ~ ~ ~ $(num) $(num) $(num) 1 1 normal @a[distance=..32]
+$particle minecraft:falling_dust{block_state:{id:"lime_concrete"}} ~ ~ ~ $(num) $(num) $(num) 1 1 normal @a[distance=..32]
+$particle minecraft:falling_dust{block_state:{id:"light_blue_concrete"}} ~ ~ ~ $(num) $(num) $(num) 1 1 normal @a[distance=..32]
+$particle minecraft:falling_dust{block_state:{id:"magenta_concrete"}} ~ ~ ~ $(num) $(num) $(num) 1 1 normal @a[distance=..32]
+$particle minecraft:falling_dust{block_state:{id:"pink_concrete"}} ~ ~ ~ $(num) $(num) $(num) 1 1 normal @a[distance=..32]
+$particle minecraft:falling_dust{block_state:{id:"orange_concrete"}} ~ ~ ~ $(num) $(num) $(num) 1 1 normal @a[distance=..32]

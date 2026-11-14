@@ -1,0 +1,9 @@
+
+    {
+      "type": "minecraft:set_custom_data",
+      "tag": {
+        "unbound_sculk_radar_calibrated": 1
+      }
+    }
+  
+  

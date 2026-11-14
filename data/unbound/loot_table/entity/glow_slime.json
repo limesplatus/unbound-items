@@ -1,0 +1,65 @@
+
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "unbound:glow_slime_ball",
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": 1,
+              "add": true,
+              "condition": {
+                "type": "minecraft:random_chance_with_enchanted_bonus",
+                "unenchanted_chance": 0,
+                "enchanted_chance": {
+                  "type": "minecraft:linear",
+                  "base": 0.1666,
+                  "per_level_above_first": 0.1666
+                },
+                "enchantment": "minecraft:looting"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glow_ink_sac",
+          "modifier": [
+            {
+              "type": "minecraft:set_count",
+              "count": {
+                "type": "uniform",
+                "min": 0,
+                "max": 1
+              }
+            },
+            {
+              "type": "minecraft:set_count",
+              "count": 1,
+              "add": true,
+              "condition": {
+                "type": "minecraft:random_chance_with_enchanted_bonus",
+                "unenchanted_chance": 0,
+                "enchanted_chance": {
+                  "type": "minecraft:linear",
+                  "base": 0.334,
+                  "per_level_above_first": 0.334
+                },
+                "enchantment": "minecraft:looting"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+execute if entity @s[tag=!unbound_glow_lantern_cauldron] run function unbound:block/glow_lantern/main
+execute if entity @s[tag=unbound_glow_lantern_cauldron] run function unbound:block/glow_lantern/cauldron/main

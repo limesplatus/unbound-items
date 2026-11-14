@@ -1,0 +1,22 @@
+
+{
+  "criteria": {
+    "shoot": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "unbound:smithing_sculk_radar",
+        "ingredients": [
+          {
+            "components": {},
+            "predicates": {
+              "minecraft:custom_data": {
+                "unbound_item": 1,
+"smithed": {"ignore": {"functionality": 1}}
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

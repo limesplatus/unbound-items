@@ -1,0 +1,1 @@
+execute anchored eyes positioned ^ ^ ^.000 run function unbound:block/strider_statue/find_2

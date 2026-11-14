@@ -1,0 +1,72 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"particle": "unbound:item/glow_lantern/5"
+	},
+	"elements": [
+		{
+			"from": [12, 8, 12],
+			"to": [4, -1, 4],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 9, 8]},
+			"faces": {
+				"north": {"uv": [7, 0, 6, 1], "texture": "#particle"},
+				"east": {"uv": [7, 0, 6, 1], "texture": "#particle"},
+				"south": {"uv": [7, 0, 6, 1], "texture": "#particle"},
+				"west": {"uv": [7, 0, 6, 1], "texture": "#particle"},
+				"up": {"uv": [7, 0, 6, 1], "texture": "#particle"},
+				"down": {"uv": [7, 0, 6, 1], "texture": "#particle"}
+			}
+		},
+		{
+			"from": [5, 0, 5],
+			"to": [11, 7, 11],
+			"light_emission": 12,
+			"faces": {
+				"north": {"uv": [0, 2, 6, 9], "texture": "#particle"},
+				"east": {"uv": [0, 2, 6, 9], "texture": "#particle"},
+				"south": {"uv": [0, 2, 6, 9], "texture": "#particle"},
+				"west": {"uv": [0, 2, 6, 9], "texture": "#particle"},
+				"up": {"uv": [0, 9, 6, 15], "texture": "#particle"},
+				"down": {"uv": [0, 9, 6, 15], "texture": "#particle", "cullface": "down"}
+			}
+		},
+		{
+			"from": [6, 7, 6],
+			"to": [10, 9, 10],
+			"faces": {
+				"north": {"uv": [1, 0, 5, 2], "texture": "#particle"},
+				"east": {"uv": [1, 0, 5, 2], "texture": "#particle"},
+				"south": {"uv": [1, 0, 5, 2], "texture": "#particle"},
+				"west": {"uv": [1, 0, 5, 2], "texture": "#particle"},
+				"up": {"uv": [1, 10, 5, 14], "texture": "#particle"}
+			}
+		},
+		{
+			"from": [6.5, 9, 8],
+			"to": [9.5, 11, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [14, 1, 11, 3], "texture": "#particle"},
+				"south": {"uv": [11, 1, 14, 3], "texture": "#particle"}
+			}
+		},
+		{
+			"from": [8, 9, 6.5],
+			"to": [8, 11, 9.5],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"east": {"uv": [11, 10, 14, 12], "texture": "#particle"},
+				"west": {"uv": [14, 10, 11, 12], "texture": "#particle"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 29, 0]
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+   
+    {"id": "lantern","required": false},
+    {"id": "water_cauldron","required": false}
+    
+
+
+
+  
+
+
+    
+  ]
+}

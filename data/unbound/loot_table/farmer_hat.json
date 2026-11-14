@@ -1,0 +1,68 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "attribute_modifiers": [
+                  
+                ],
+                "minecraft:item_name": {
+                  "translate": "Farmer Hat"
+                },
+                "minecraft:lore": [
+
+
+
+                      [{"translate":"Places an additional crop next","color": "gray","italic": false}],[{"translate":"to crops you place, and lowers","color": "gray","italic": false}],[{"translate":"the distance zombies can see you","color": "gray","italic": false}],[{"translate":"","color": "gray","italic": false}],[{"translate":"item.modifiers.head","color": "gray","italic": false}],[{"text":"-9 ","color": "blue","italic": false},{"translate":"Zombie Detection Range","color": "blue","italic": false}]
+                  
+                  
+
+                 
+                ],
+                "custom_model_data": {
+                  "floats": [
+                    4376002
+                  ]
+                },
+                 "tooltip_display": {
+                  "hidden_components": [
+                    "unbreakable",
+                    "dyed_color"
+                  ]
+                },
+                "item_model": "leather_helmet",
+                "dyed_color": 14614331,
+                "repairable": {
+                  "items": [
+                    "hay_block"
+                  ]
+                },
+                "max_stack_size": 1,
+                "unbreakable": {},
+                "max_damage": 60,
+                "rarity": "common",
+                "custom_data": {
+                  "unbound_farmer_hat": 1,
+                                  "unbound_item": 1,
+"smithed": {"ignore": {"functionality": 1}},
+                                  "unbound_unbreakable_armor": 1
+                },
+                "equippable": {
+                  "slot": "head",
+                  "equip_sound": "item.armor.equip_leather"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+particle block{block_state:{id:"red_concrete"}} ~ ~1 ~ 0 0 0 .02 1 force @a[distance=..64]
+particle block{block_state:{id:"yellow_concrete"}} ~ ~1 ~ 0 0 0 .02 1 force @a[distance=..64]
+particle block{block_state:{id:"green_concrete"}} ~ ~1 ~ 0 0 0 .02 1 force @a[distance=..64]
+particle block{block_state:{id:"light_blue_concrete"}} ~ ~1 ~ 0 0 0 .02 1 force @a[distance=..64]
+particle block{block_state:{id:"magenta_concrete"}} ~ ~1 ~ 0 0 0 .02 1 force @a[distance=..64]

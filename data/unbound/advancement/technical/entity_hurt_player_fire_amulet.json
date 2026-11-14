@@ -1,0 +1,48 @@
+
+{
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {}
+        },
+        "player": {
+          "type": "minecraft:all_of",
+          "terms": [
+            "unbound:equipped/fire_amulet",
+            {
+              "type": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "flags": {
+                  "is_on_fire": true
+                }
+              }
+            },
+            {
+              "type": "minecraft:inverted",
+              "term": {
+                "type": "minecraft:entity_scores",
+                "entity": "this",
+                "scores": {
+                  "unbound_fire_time_on_fire": {
+                    "min": 0
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "1"
+    ]
+  ],
+  "rewards": {
+    "function": "unbound:amulets/fire/init_misc_fire_hit"
+  }
+}

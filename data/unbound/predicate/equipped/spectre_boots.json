@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:any_of",
+    "terms": [
+      {
+        "type": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "feet": {
+              "items": "minecraft:iron_boots",
+              "predicates": {
+                "minecraft:custom_data": {"unbound_spectre_boots": 1}
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+  

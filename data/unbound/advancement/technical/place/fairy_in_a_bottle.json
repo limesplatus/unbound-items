@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "e": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        
+        "location": {
+          
+            "type": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:skeleton_spawn_egg",
+              "predicates": {
+                "custom_data": {
+                  "unbound_fairy_in_a_bottle": 1
+                }
+              }
+            }
+          }
+        
+      }
+    }
+  },
+  "requirements": [
+    [
+      "e"
+    ]
+  ],
+  "rewards": {
+    "function": "unbound:mob/fairy/place"
+  }
+}

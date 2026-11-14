@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:any_of",
+  "terms": [
+    "unbound:enchant/unbreaking1",
+    "unbound:enchant/unbreaking2",
+    "unbound:enchant/unbreaking3"
+  ]
+}

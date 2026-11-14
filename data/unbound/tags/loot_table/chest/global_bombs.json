@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "terralith:desert_outpost",
+      "required": false
+    },
+    {
+      "id": "structory:outcast/bandit/desert",
+      "required": false
+    },
+    {
+      "id": "structory:outcast/boat/loot",
+      "required": false
+    },
+    {
+      "id": "terralith:underground/chest",
+      "required": false
+    },
+    {
+      "id": "terralith:village/fortified/smith",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    
+
+    
+            "unbound:amulet_of_the_sea": {"trigger": "minecraft:recipe_crafted",  
+    "conditions": {"recipes": "unbound:amulet_of_the_sea"}}
+  
+    
+  },
+    
+    "requirements": [
+      [
+        "unbound:amulet_of_the_sea"
+
+      ]
+    ],
+    "parent": "unbound:technical/craft/any"
+  }

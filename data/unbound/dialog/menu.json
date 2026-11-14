@@ -1,0 +1,66 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Unbound: Items",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Versatile, yet intuitive new tools, equipment, & amulets, providing new survival playstyles, exploration incentives and resource usage.",
+      "width": 300
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "v1.0.6\nBy limesplatus",
+        "color": "gray"
+      },
+      "width": 300
+    }
+  ],
+  "actions": [
+    {
+      "label": "Website",
+      "action": {
+        "type": "open_url",
+        "url": "https://modrinth.com/datapack/unbound-items"
+      }
+    },
+    {
+      "label": "Issues",
+      "action": {
+        "type": "open_url",
+        "url": "https://github.com/limesplatus/Unbound-Items/issues"
+      }
+    },
+    {
+      "label": "Config",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function unbound:__settings"
+      }
+    },
+    {
+      "label": "Give Items",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function unbound:__items"
+      }
+    },
+    {
+      "label": "Summon Mobs",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function unbound:__mobs"
+      }
+    }
+  ],
+  "exit_action": {
+    "action": {
+      "type": "show_dialog",
+      "dialog": "smithed:data_packs"
+    },
+    "label": {
+      "translate": "gui.back"
+    },
+    "width": 200
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 10387312,
+    "separation": 0,
+    "spacing": 6,
+    "frequency_reduction_method": "legacy_type_3",
+    "frequency": 0.333
+  },
+  "structures": [
+    {
+      "structure": "unbound:fairy",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+loot give @s loot unbound:rabbit_boots

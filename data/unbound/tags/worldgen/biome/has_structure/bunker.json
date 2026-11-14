@@ -1,0 +1,14 @@
+{
+    "replace": false,
+    "values": [
+  
+      
+      {"id":"deep_dark","required": false},
+      {"id":"terralith:cave/frostfire_caves","required": false}
+      
+     
+  
+      
+    ]
+  }
+  

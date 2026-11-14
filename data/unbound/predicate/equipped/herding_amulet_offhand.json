@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:any_of",
+    "terms": [
+     
+      {
+        "type": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "offhand": {
+              "items": "minecraft:firework_star",
+              "predicates": {
+                "minecraft:custom_data": {"unbound_herding_amulet": 1}
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+  

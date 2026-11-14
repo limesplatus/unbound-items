@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "entity_type": "player",
+    "flags": {
+      "is_flying": false,
+      "is_sprinting": true
+    }
+  }
+
+}

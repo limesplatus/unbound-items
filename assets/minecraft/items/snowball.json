@@ -1,0 +1,148 @@
+{
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "entries": [
+  	{
+        "threshold": 27018,
+        "model": {
+
+            "type": "model",
+            "model": "unbound:item/confetti_ball"
+            }
+        },
+        {
+          "threshold": 1450404,
+          "model": {
+
+              "type": "model",
+              "model": "incendium:item/restless"
+              }
+          },
+          {
+            "threshold": 4376003,
+            "model": {
+
+            "type": "model",
+            "model": "unbound:item/confusion_slime"
+            }
+        },
+        {
+          "threshold": 4376008,
+          "model": {
+
+          "type": "model",
+          "model": "unbound:item/bomb"
+          }
+      },
+    {
+      "threshold": 4376021,
+      "model": {
+      "type": "model",
+      "model": "unbound:item/glow_lantern/1"
+      }
+    },
+    {
+      "threshold": 4376022,
+      "model": {
+      "type": "model",
+      "model": "unbound:item/glow_lantern/2"
+      }
+    },
+    {
+      "threshold": 4376023,
+      "model": {
+      "type": "model",
+      "model": "unbound:item/glow_lantern/3"
+      }
+    },
+    {
+      "threshold": 4376024,
+      "model": {
+      "type": "model",
+      "model": "unbound:item/glow_lantern/4"
+      }
+    },
+    {
+      "threshold": 4376025,
+      "model": {
+      "type": "model",
+      "model": "unbound:item/glow_lantern/5"
+      }
+    },
+    {
+      "threshold": 4376026,
+      "model": {
+      "type": "model",
+      "model": "unbound:item/glow_lantern/6"
+      }
+    },
+    {
+      "threshold": 4376027,
+      "model": {
+      "type": "model",
+      "model": "unbound:item/particle/pulse"
+      }
+    },
+    {
+      "threshold": 4376028,
+      "model": {
+      "type": "model",
+      "model": "unbound:item/glow_slime_ball"
+      }
+    },
+    {
+      "threshold": 4376029,
+      "model": {
+      "type": "model",
+      "model": "unbound:item/glow_slime_ball"
+      }
+    },
+    {
+      "threshold": 4376030,
+      "model": {
+      "type": "model",
+      "model": "unbound:item/block/glow_torch"
+      }
+    },
+    {
+      "threshold": 4376031,
+      "model": {
+      "type": "model",
+      "model": "unbound:item/block/glow_torch_wall"
+      }
+    },
+    {
+      "threshold": 4376032,
+      "model": {
+      "type": "model",
+      "model": "unbound:item/particle/glow_flame"
+      }
+    },
+    {
+      "threshold": 4376033,
+      "model": {
+      "type": "model",
+      "model": "unbound:item/empty"
+      }
+    },
+    {
+      "threshold": 4376034,
+      "model": {
+      "type": "model",
+      "model": "unbound:item/entity/fairy"
+      }
+    },
+    {
+      "threshold": 4376035,
+      "model": {
+      "type": "model",
+      "model": "unbound:item/entity/fairy_hurt"
+      }
+    }
+    ], 
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/snowball"
+    }
+}}

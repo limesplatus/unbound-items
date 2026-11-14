@@ -1,0 +1,6 @@
+{
+    "parent": "item/snowball",
+    "textures": {
+        "layer0": "unbound:item/confetti_ball"
+    }
+}

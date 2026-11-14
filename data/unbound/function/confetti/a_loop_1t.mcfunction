@@ -1,0 +1,1 @@
+execute as @e[type=snowball,tag=unbound_confetti] at @s run function unbound:confetti/entity

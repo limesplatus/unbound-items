@@ -1,0 +1,22 @@
+
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:all_of",
+          "terms": [
+           
+          ]
+        },
+        "damage": {
+          "source_entity": {
+            "entity_type": "player"
+          }
+        }
+      }
+    }
+  },
+  "parent": "unbound:technical/kill_mob"
+}

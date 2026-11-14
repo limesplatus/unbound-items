@@ -1,0 +1,59 @@
+{
+  "pools": [
+      {
+          "rolls": 1,
+          "entries": [
+              {
+                  "type": "minecraft:item",
+                  "name": "minecraft:firework_star",
+                  "modifier": [
+                      {
+                          "type": "minecraft:set_components",
+                          "components": {
+                            
+                              "minecraft:lore": [
+                                  {"translate":"Drastically lowers your max health","color": "gray","italic": false},
+                                  [{"translate":"in exchange for ","color": "gray","italic": false},{"color":"#c9878c","italic": false,"translate":"+5"},{"color":"#c9878c","italic": false,"translate":" attack damage"}],
+                                  {"text":""},
+                                  {"translate":"Equippable in:","color": "gray","italic": false},
+                                  {"translate": " Offhand","color":"blue","italic": false}
+                              ],
+                              "attribute_modifiers": [
+                                      {
+                                          "id": "max_health",
+                                          "amount": -14,
+                                          "operation": "add_value",
+                                          "slot": "offhand",
+                                          "type": "max_health"
+                                      }
+                                  ],
+                                
+                  "minecraft:item_model": "amethyst_shard",
+                              "minecraft:item_name": {"translate":"Necrotic Amulet"},
+                              "minecraft:rarity": "uncommon",
+                              "minecraft:custom_model_data": {
+                                  "floats": [
+                                      4376005
+                                  ]
+                              },
+                              "minecraft:custom_data": {
+                                  "unbound_necrotic_amulet": 1,
+                                  "unbound_amulet": 1,
+                                  "unbound_hand_item": 1,
+                                  "unbound_item": 1,
+"smithed": {"ignore": {"functionality": 1}}
+                              },
+                              "max_stack_size": 1,
+                 "tooltip_display": {
+                  "hidden_components": [
+                    "attribute_modifiers"
+                  ]
+                }
+                          }
+                      }
+                  ]
+              }
+          ]
+      }
+  ]
+}

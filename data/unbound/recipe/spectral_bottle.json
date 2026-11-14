@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "222",
+    "#b#",
+    " g "
+  ],
+  "key": {
+    "2": "minecraft:amethyst_shard",
+    "b": "minecraft:glass_bottle",
+    "#": "minecraft:glowstone",
+    "g": "minecraft:gold_ingot"
+  },
+  "result": {
+    "id": "minecraft:snowball",
+    "components": {
+      "enchantments": {
+        "unbound:technical/snowball": 1
+      },
+      "item_model": "glass_bottle",
+      "enchantment_glint_override": true,
+      "tooltip_display": {
+        "hidden_components": [
+          "enchantments"
+        ]
+      },
+      "minecraft:item_name": {
+        "translate": "Spectral Bottle",
+        "color": "white"
+      },
+      "minecraft:lore": [
+        [
+          {
+            "translate": "Releases a powerful light,",
+            "color": "gray",
+            "italic": false
+          }
+        ],
+        [
+          {
+            "translate": "making mobs nearby glow",
+            "color": "gray",
+            "italic": false
+          }
+        ]
+      ],
+      "custom_model_data": {
+        "floats": [
+          4376009
+        ]
+      },
+      "max_stack_size": 1,
+      "use_cooldown": {
+        "seconds": 1,
+        "cooldown_group": "unbound:spectral_bottle"
+      },
+      "custom_data": {
+        "unbound_spectral_bottle": 1,
+        "unbound_item": 1,
+"smithed": {"ignore": {"functionality": 1}}
+      }
+    }
+  }
+}

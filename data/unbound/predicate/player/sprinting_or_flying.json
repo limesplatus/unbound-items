@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:any_of",
+  "terms": [
+    "unbound:player/flying",
+    "unbound:player/sprinting"
+  ]
+}

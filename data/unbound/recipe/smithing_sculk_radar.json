@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:jigsaw",
+  "addition": "minecraft:amethyst_shard",
+  "result": {
+    "id": "minecraft:jigsaw",
+    "count": 1,
+    "components": {
+      "rarity": "uncommon",
+                "minecraft:item_name": {"text":"Sculk Radar"},
+                
+                "lore": [{"text":"No Calibration","color":"gray","italic": false}],
+             
+                "custom_model_data": {"floats":[4376025]},
+                "max_stack_size": 1,
+                "custom_data": {
+                  "unbound_item": 1,
+"smithed": {"ignore": {"functionality": 1}},
+                  "unbound_sculk_radar": 1, "unbound_hand_item": 1, "unbound_sculk_radar_mode": 0, "unbound_sculk_radar_calibrated": 0
+                },
+
+                "item_model": "amethyst_shard",
+                "consumable": {
+                  "animation": "none",
+                  "consume_seconds": 9999999999999,
+                  "has_consume_particles": false,
+                  "sound": "particle.soul_escape"
+                }
+
+    }
+  }
+}

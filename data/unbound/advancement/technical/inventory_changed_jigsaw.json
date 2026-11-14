@@ -1,0 +1,19 @@
+
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": "unbound:equipped/amulet_offhand",
+        "items": [
+          {
+            "items": "minecraft:firework_star"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "unbound:amulets/equip_1"
+  }
+}

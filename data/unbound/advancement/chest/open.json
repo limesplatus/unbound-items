@@ -1,0 +1,36 @@
+{
+  "parent": "unbound:root",
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "block": {
+              "blocks": "#unbound:loot_container"
+            }
+          }
+        }
+      }
+    },
+    "2": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "entity_properties",
+          "entity": "this",
+          "predicate": {
+          "entity_type": "minecraft:chest_minecart"
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "1",
+      "2"
+    ]
+  ]
+}

@@ -1,0 +1,11 @@
+
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": "unbound:equipped/magnet"
+      }
+    }
+  }
+}

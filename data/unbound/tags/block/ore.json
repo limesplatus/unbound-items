@@ -1,0 +1,24 @@
+{
+    "replace": false,
+    "values": [
+     
+      {"id": "#coal_ores","required": false},
+      {"id": "#gold_ores","required": false},
+      {"id": "#diamond_ores","required": false},
+      {"id": "#lapis_ores","required": false},
+      {"id": "#emerald_ores","required": false},
+      {"id": "#copper_ores","required": false},
+      {"id": "#iron_ores","required": false},
+      {"id": "#redstone_ores","required": false},
+      {"id": "#gold_ores","required": false}
+      
+  
+  
+  
+    
+  
+  
+      
+    ]
+  }
+  

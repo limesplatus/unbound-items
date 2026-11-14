@@ -1,0 +1,77 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_boots",
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                
+                "equippable": {
+                  "slot": "feet",
+                  "equip_sound": "item.armor.equip_leather",
+                  "asset_id": "unbound:rabbit_boots"
+                },
+                
+                "attribute_modifiers": [
+              
+                  { 
+                    "operation": "add_value",
+                    "type": "armor",
+                    "id": "armor",
+                    "slot": "feet",
+                    "amount": 1
+                  },
+                  { 
+                    "operation": "add_value",
+                    "type": "safe_fall_distance",
+                    "id": "safe_fall_distance",
+                    "slot": "feet",
+                    "amount": 1
+                  }
+                ],
+
+                "minecraft:item_name":{"translate":"Rabbit Boots"},
+                "minecraft:lore": [
+
+
+
+
+    [{"translate":"High Jump","color": "#7ac5c4","italic": false}],
+
+                        
+                       [{"text":"→ ","color":"dark_gray","italic":false},{"translate":"Hold ","color": "gray"},{"text":"[","color": "blue","italic": false},{"keybind":"key.sneak","color":"blue","italic": false},{"text":"]","color": "blue","italic": false},{"text":" + ","color": "gray"},{"text":"[","color": "blue","italic": false},{"translate":"Jump","color":"blue","italic": false},{"text":"]","color": "blue","italic": false},{"translate":"","color": "gray"}]
+
+                ],
+                "custom_model_data": {"floats":[4376010]},
+                "dyed_color":  16777215
+                ,
+             
+                "max_stack_size": 1,
+                "unbreakable": {},
+                "max_damage": 150,
+                "rarity": "common",
+                "custom_data": {
+                  "unbound_rabbit_boots": 1,
+                                  "unbound_item": 1,
+"smithed": {"ignore": {"functionality": 1}},
+                                  "unbound_unbreakable_armor": 1
+                },
+                 "tooltip_display": {
+                  "hidden_components": [
+                    "dyed_color",
+                    "unbreakable"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+execute if data entity @s Brain.memories."minecraft:admiring_item"{ttl:1L} run function unbound:other/barter/loot_chance

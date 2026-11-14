@@ -1,0 +1,7 @@
+
+    {
+      "type": "minecraft:set_name",
+      "name": [{"translate":"Sculk Radar","italic": false},{"text":" "},{"translate":"(Players)","color":"gray","italic": true}]
+    }
+  
+  

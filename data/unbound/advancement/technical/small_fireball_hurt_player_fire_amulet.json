@@ -1,0 +1,26 @@
+
+{
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "entity_type": "minecraft:small_fireball"
+            }
+          }
+        },
+        "player": "unbound:equipped/fire_amulet"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "1"
+    ]
+  ],
+  "rewards": {
+    "function": "unbound:amulets/fire/init_blaze_hit"
+  }
+}

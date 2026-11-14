@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jigsaw",
+          "modifier": [
+            {
+              "type": "minecraft:set_components",
+              "components": {
+                "rarity": "uncommon",
+                "minecraft:item_name": {"translate":"Sculk Radar"},
+             
+                "custom_model_data": {"floats":[4376025]},
+                "max_stack_size": 1,
+                "custom_data": {
+                  "unbound_sculk_radar": 1, "unbound_hand_item": 1, "unbound_sculk_radar_mode": 0, "unbound_sculk_radar_calibrated": 0,
+                                  "unbound_item": 1,
+"smithed": {"ignore": {"functionality": 1}}
+                },
+
+      "dyed_color": 1,
+      "tooltip_display": {
+        "hidden_components": [
+          "dyed_color"
+        ]},
+                "item_model": "amethyst_shard",
+                "consumable": {
+                  "animation": "none",
+                  "consume_seconds": 9999999999999,
+                  "has_consume_particles": false,
+                  "sound": "particle.soul_escape"
+                }
+
+
+
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

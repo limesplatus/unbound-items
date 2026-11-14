@@ -1,0 +1,57 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "1 2",
+    "# #",
+    "n n"
+  ],
+  "key": {
+    "n": "netherite_scrap"
+    ,
+    "#": "obsidian"
+    ,
+    "1": "crimson_fungus"
+    ,
+    "2": "warped_fungus"
+  
+  },
+  "result": {
+    "id": "minecraft:iron_boots",
+    "components": {
+                  
+                  "minecraft:lore": [
+                    
+
+
+                       [{"translate":"Lava Jump","color": "#ff9a78","italic": false}],
+                       [{"translate":"Allows you to jump twice","color": "gray","italic": false}],
+                       [{"translate":"on the surface of lava","color": "gray","italic": false}],
+                       [{"text":"→ ","color":"dark_gray","italic":false},{"text":"[","color": "blue","italic": false},{"keybind":"key.jump","color":"blue","italic": false},{"text":"]","color": "blue","italic": false},{"translate":"unbound.strider_boots.lore1","fallback":" right before","color": "#7a7a7a"}],[{"translate":"unbound.strider_boots.lore2","fallback":"   entering lava","color": "#7a7a7a","italic": false}],
+                        
+
+                       [{"text":""}],[{"translate":"Grindstone Repair: ","color":"gray","italic": false}],[{"translate":"  ","color":"gray","italic": false},{"color":"blue","italic": false,"translate":"item.minecraft.iron_boots"}]
+
+
+                  
+                  ],
+
+      "minecraft:item_name": {"translate":"Strider Boots"},
+      "custom_model_data": {"floats":[4376011]},
+      "equippable": {
+        "slot": "feet",
+        "asset_id": "unbound:strider_boots"
+      },
+      "max_stack_size": 1,
+      "max_damage": 429,
+      "rarity": "uncommon",
+      "custom_data": {
+        "unbound_strider_boots": 1,
+                                  "unbound_item": 1,
+"smithed": {"ignore": {"functionality": 1}}      }
+                  
+                  
+      
+    }
+  }
+}

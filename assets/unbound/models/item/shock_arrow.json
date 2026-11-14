@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:item/generated",
+	"textures": {
+		"layer0": "unbound:item/shock_arrow",
+		"layer1": "unbound:item/shock_arrow_anim"
+	}
+}

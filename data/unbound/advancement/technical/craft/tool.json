@@ -1,0 +1,47 @@
+{
+  "criteria": {
+    
+
+    
+            "unbound:amulet_of_the_sea": {"trigger": "minecraft:recipe_crafted",  
+    "conditions": {"recipes": "unbound:amulet_of_the_sea"}}
+
+            ,"unbound:magnet": {"trigger": "minecraft:recipe_crafted",  
+    "conditions": {"recipes": "unbound:magnet"}}
+      
+            ,"unbound:phantom_cloak": {"trigger": "minecraft:recipe_crafted",  
+    "conditions": {"recipes": "unbound:phantom_cloak"}}
+      
+            ,"unbound:rabbit_boots": {"trigger": "minecraft:recipe_crafted",  
+    "conditions": {"recipes": "unbound:rabbit_boots"}}
+      
+            ,"unbound:sculk_radar": {"trigger": "minecraft:recipe_crafted",  
+    "conditions": {"recipes": "unbound:sculk_radar"}}
+      
+            ,"unbound:smithing_sculk_radar": {"trigger": "minecraft:recipe_crafted",  
+    "conditions": {"recipes": "unbound:smithing_sculk_radar"}}
+      
+            ,"unbound:spectral_bottle": {"trigger": "minecraft:recipe_crafted",  
+    "conditions": {"recipes": "unbound:spectral_bottle"}}
+      
+            ,"unbound:spectre_boots": {"trigger": "minecraft:recipe_crafted",  
+    "conditions": {"recipes": "unbound:spectre_boots"}}
+  
+    
+  },
+    
+    "requirements": [
+      [
+        "unbound:amulet_of_the_sea",
+        "unbound:magnet",
+        "unbound:phantom_cloak",
+        "unbound:rabbit_boots",
+        "unbound:sculk_radar",
+        "unbound:smithing_sculk_radar",
+        "unbound:spectral_bottle",
+        "unbound:spectre_boots"
+
+      ]
+    ],
+    "parent": "unbound:technical/craft/any"
+  }

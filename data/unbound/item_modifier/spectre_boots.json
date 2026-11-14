@@ -1,0 +1,11 @@
+
+  {
+    "type": "minecraft:set_components",
+    "components": {
+      "equippable": {
+        "slot": "feet",
+        "equip_sound": "item.armor.equip_diamond",
+        "asset_id": "unbound:spectre_boots"
+      }
+    }
+  }

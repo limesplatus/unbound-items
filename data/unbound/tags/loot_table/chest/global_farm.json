@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "terralith:village/fortified/generic",
+      "required": false
+    },
+    {
+      "id": "structory:mood/farmer",
+      "required": false
+    },
+    {
+      "id": "structory:outcast/settlement",
+      "required": false
+    }
+  ]
+}
