@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=unbound_electricity] at @s run function unbound:mob/phantom_rider/arrow/electricity
