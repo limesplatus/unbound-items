@@ -7,21 +7,28 @@
         {
           "type": "minecraft:loot_table",
           "value": "unbound:shock_arrow",
-          "weight": 1
-        }
-      ],
-      "condition": 
-        {
-          "type": "minecraft:damage_source_properties",
-          "predicate": {
-            "tags": [],
-            "source_entity": {
-              "entity_type": "minecraft:creeper",
-              "nbt": "{powered:1b}"
-            }
+          "weight": 1,
+          "modifier": {
+            "type": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 2
+            },
+            "add": false
           }
         }
-      
+      ],
+      "condition": {
+        "type": "minecraft:damage_source_properties",
+        "predicate": {
+          "tags": [],
+          "source_entity": {
+            "entity_type": "minecraft:creeper",
+            "nbt": "{powered:1b}"
+          }
+        }
+      }
     },
     {
       "bonus_rolls": 0,
@@ -48,7 +55,20 @@
               "type": "minecraft:enchanted_count_increase"
             }
           ],
-          "name": "minecraft:arrow"
+          "name": "minecraft:arrow",
+          "condition": {
+            "type": "inverted",
+            "term": {
+              "type": "minecraft:damage_source_properties",
+              "predicate": {
+                "tags": [],
+                "source_entity": {
+                  "entity_type": "minecraft:creeper",
+                  "nbt": "{powered:1b}"
+                }
+              }
+            }
+          }
         }
       ],
       "rolls": 1
