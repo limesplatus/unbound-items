@@ -34,6 +34,8 @@ execute as @e[type=skeleton,tag=unbound_phantom_rider_skeleton] at @s run functi
 
 execute as @e[type=item_display,tag=unbound_fairy_display] at @s run function unbound:mob/fairy/a_main
 
+function unbound:mob/phantom_rider/arrow/electricity_loop_1t
+
 #######################
 
 schedule function unbound:clock/40 40t
